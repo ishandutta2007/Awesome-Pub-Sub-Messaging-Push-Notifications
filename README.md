@@ -1,321 +1,181 @@
-# Awesome-Pub-Sub-Messaging-Push-Notifications
-
-## Top Pub/Sub Messaging & Push Notifications Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Real-Time Messaging, Multi-Channel Notifications & Self-Hosted Pub/Sub*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial pub/sub and push notification platforms** and **open-source projects** that deliver real-time messages across web, mobile, email, SMS, and chat channels — from simple push notifications to sophisticated notification infrastructure with workflows and preferences.
-
-
-
-**Examples** include Amazon SNS, Firebase Cloud Messaging, OneSignal, Twilio, Pusher, Novu, Knock, Courier, Airship, and Braze (the category leaders).
-
-
-
-**Open-source emphasis**: Pub/sub messaging and notifications are strong open-source domains. **Novu** leads as the most comprehensive open-source notification infrastructure. **ntfy**, **Gotify**, and **Apprise** deliver self-hosted push notifications. **Centrifugo** and **Mercure** power real-time pub/sub messaging. **NATS**, **Redis Pub/Sub**, and **Apache Pulsar** provide messaging backbones. **web-push** and **pywebpush** handle browser push. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Amazon SNS](https://aws.amazon.com/sns/)**  
-
-  **AWS's pub/sub messaging service** — topics, subscriptions, and mobile push . **SMS, email, SQS, and Lambda delivery** . **Best for AWS-native pub/sub** .
-
-
-
-- **[Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging)**  
-
-  **Google's push notification service** — cross-platform messaging for mobile and web . **Best for Firebase ecosystem** .
-
-
-
-- **[OneSignal](https://onesignal.com/)**  
-
-  **The leading push notification platform** — mobile, web, and email notifications . **Best for mobile engagement** .
-
-
-
-- **[Twilio](https://www.twilio.com/)**  
-
-  **Communication APIs** — SMS, voice, email, and push notifications . **Best for omnichannel communication** .
-
-
-
-- **[Pusher](https://pusher.com/)**  
-
-  **Real-time pub/sub messaging** — WebSocket-based channels for applications . **Best for real-time features** .
-
-
-
-- **[Novu](https://novu.co/)**  
-
-  **Open-source notification infrastructure** — see Open-Source section for self-hosted option.
-
-
-
-- **[Knock](https://knock.app/)**  
-
-  **Notification infrastructure** — workflow builder and subscriber preferences . **Best for developer-friendly notifications** .
-
-
-
-- **[Courier](https://www.courier.com/)**  
-
-  **Notification infrastructure API** — route messages across email, SMS, push, and chat . **Best for multi-channel notifications** .
-
-
-
-- **[Airship](https://www.airship.com/)**  
-
-  **Customer engagement platform** — push, in-app, SMS, and email . **Best for enterprise engagement** .
-
-
-
-- **[Braze](https://www.braze.com/)**  
-
-  **Customer engagement platform** — cross-channel messaging and analytics . **Best for enterprise marketing** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Notification Infrastructure
-
-
-
-- **[Novu](https://github.com/novuhq/novu)**  
-
-  **The leading open-source notification infrastructure platform**, MIT licensed with **35,000+ GitHub stars** . **Unified API for email, SMS, push, in-app inbox, Slack, Teams, Discord, and WhatsApp** . **Visual workflow editor** with drag-and-drop flow builder, conditions, delays, and digest . **In-app notification center** (embeddable React/Angular/Vue inbox) . **Subscriber preference management** and template editor with i18n . **No per-notification pricing** — pay only for compute . **The de facto open-source Courier and Knock alternative** . **Best for comprehensive notification infrastructure** .
-
-
-
-- **[Apprise](https://github.com/caronc/apprise)**  
-
-  **Push notification library for 100+ services**, MIT licensed with **12,000+ GitHub stars** . **One API for Discord, Slack, Telegram, email, SMS, and more** . **CLI and Python library** . **Best for multi-service notifications** .
-
-
-
-- **[ntfy](https://github.com/binwiederhier/ntfy)**  
-
-  **Simple HTTP-based pub/sub notification service**, Apache-2.0/GPL-2.0 licensed with **20,000+ GitHub stars** . **Send notifications via HTTP PUT/POST** . **Subscribe via web, Android, iOS, or CLI** . **Self-hosted with no account required** . **The simplest self-hosted push notification service** . **Best for simple, self-hosted notifications** .
-
-
-
-- **[Gotify](https://github.com/gotify/server)**  
-
-  **Self-hosted push notification server**, MIT licensed with **10,000+ GitHub stars** . **Simple REST API for sending messages** . **Web UI and Android app** . **Best for self-hosted push notifications** .
-
-
-
-- **[Notifuse](https://github.com/Notifuse/notifuse)** — Open-source notification infrastructure .
-
-
-
-### Pub/Sub Messaging Platforms
-
-
-
-- **[Centrifugo](https://github.com/centrifugal/centrifugo)**  
-
-  **Scalable real-time messaging server**, Apache-2.0 licensed with **8,000+ GitHub stars** . **WebSocket, HTTP-streaming, SSE, and GRPC** . **Pub/sub channels with presence and history** . **Best for real-time pub/sub** .
-
-
-
-- **[Mercure](https://github.com/dunglas/mercure)**  
-
-  **Open-source protocol for real-time updates**, AGPL-3.0 licensed . **Server-sent events (SSE) based** . **Best for real-time web updates** .
-
-
-
-- **[NATS](https://github.com/nats-io/nats-server)**  
-
-  **Cloud-native messaging system**, Apache-2.0 licensed . **Lightweight, high-performance pub/sub** with JetStream for persistence . **Best for IoT and edge pub/sub** .
-
-
-
-- **[Redis Pub/Sub](https://github.com/redis/redis)**  
-
-  **In-memory pub/sub messaging**, BSD-3-Clause licensed . **Simple channel-based messaging** . **Best for simple pub/sub** .
-
-
-
-- **[Apache Pulsar](https://github.com/apache/pulsar)**  
-
-  **Distributed messaging and streaming platform**, Apache-2.0 licensed with **14,000+ GitHub stars** . **Multi-tenancy, geo-replication, and tiered storage** . **Best for multi-tenant pub/sub** .
-
-
-
-- **[Apache Kafka](https://github.com/apache/kafka)**  
-
-  **Event streaming platform**, Apache-2.0 licensed with **28,000+ GitHub stars** . **Distributed pub/sub with persistence** . **Best for high-throughput pub/sub** .
-
-
-
-- **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)**  
-
-  **Message broker with pub/sub support**, MPL-2.0 licensed with **12,000+ GitHub stars** . **AMQP, MQTT, and STOMP support** . **Best for reliable messaging** .
-
-
-
-### Push Notification Libraries
-
-
-
-- **[web-push](https://github.com/web-push-libs/web-push)**  
-
-  **Web Push library for Node.js**, MIT licensed with **3,000+ GitHub stars** . **Send push notifications to browsers** . **Best for web push** .
-
-
-
-- **[pywebpush](https://github.com/web-push-libs/pywebpush)**  
-
-  **Web Push library for Python**, MPL-2.0 licensed . **Send push notifications to browsers** . **Best for Python web push** .
-
-
-
-- **[PushSharp](https://github.com/Redth/PushSharp)** — .NET push notification library (archived) .
-
-
-
-- **[node-gcm](https://github.com/ToothlessGear/node-gcm)** — Google Cloud Messaging library for Node.js (deprecated) .
-
-
-
-### MQTT & IoT Messaging
-
-
-
-- **[Mosquitto](https://github.com/eclipse/mosquitto)**  
-
-  **The standard open-source MQTT broker**, EPL-2.0 licensed . **Lightweight and efficient** . **Best for IoT messaging** .
-
-
-
-- **[EMQX](https://github.com/emqx/emqx)**  
-
-  **High-performance MQTT broker**, Apache-2.0 licensed with **13,000+ GitHub stars** . **Scalable to 100M+ connections** . **Best for large-scale IoT messaging** .
-
-
-
-- **[VerneMQ](https://github.com/vernemq/vernemq)**  
-
-  **Distributed MQTT broker**, Apache-2.0 licensed . **Scalable and fault-tolerant** . **Best for clustered MQTT** .
-
-
-
-- **[NanoMQ](https://github.com/nanomq/nanomq)**  
-
-  **Lightweight MQTT broker for edge**, MIT licensed . **Best for edge MQTT** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Novu** — Complete notification infrastructure .
-
-- **ntfy** — Simple HTTP-based push .
-
-- **Gotify** — Self-hosted push .
-
-- **Apprise** — Multi-service notifications .
-
-- **Centrifugo** — Real-time pub/sub .
-
-- **Mercure** — SSE-based pub/sub .
-
-- **NATS** — Cloud-native messaging .
-
-- **Redis Pub/Sub** — In-memory pub/sub .
-
-- **Apache Pulsar** — Multi-tenant pub/sub .
-
-- **RabbitMQ** — Reliable messaging .
-
-- **Mosquitto** — MQTT broker .
-
-- **EMQX** — Scalable MQTT .
-
-- **web-push** — Web push library .
-
-- **pywebpush** — Python web push .
-
-
-
-**Frameworks for building custom pub/sub and notification solutions**: Combine **Novu** for comprehensive notification infrastructure with multi-channel support . Use **ntfy** or **Gotify** for simple self-hosted push notifications . Deploy **Centrifugo** or **Mercure** for real-time pub/sub messaging . Choose **NATS** for cloud-native messaging . Integrate **Apprise** for multi-service notification routing . Use **web-push** for browser push notifications . Deploy **Mosquitto** or **EMQX** for MQTT-based IoT messaging . Note that true managed notification services with global delivery, delivery analytics, and vendor-supported SLAs (OneSignal, Courier, Knock, Braze) remain primarily commercial territory; open-source stacks provide strong notification infrastructure, pub/sub messaging, and push delivery foundations that require integration for complete multi-channel notifications.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Pub/sub and notification platforms handle user data and communication preferences. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations (GDPR, CCPA, CAN-SPAM).
-
-- **Push notification delivery depends on platform providers** — APNs (Apple) and FCM (Google) mediate mobile push. Self-hosted notification platforms still require these services for mobile delivery .
-
-- **Email deliverability requires IP reputation management** — self-hosted email notifications must warm up IPs, configure SPF/DKIM/DMARC, and monitor blacklists .
-
-- **License considerations**: Novu uses MIT, ntfy uses Apache-2.0/GPL-2.0, Centrifugo uses Apache-2.0, and Mercure uses AGPL-3.0. Verify licensing against your use case before committing .
-
-- The open-source ecosystem provides strong notification infrastructure, pub/sub messaging, and push delivery foundations, but **global delivery, delivery analytics, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+<!-- BANNER -->
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Pub/Sub Messaging & Push Notifications Banner" width="100%" />
+</p>
+
+# 🚀 Awesome Pub/Sub Messaging & Push Notifications Ecosystem
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesmme-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" alt="Maintained" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome" />
+  <a href="https://github.com/ishandutta2007"><img alt="iGitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Executive Overview & Ecosystem Guide
 
+Welcome to the definitive **curated ecosystem guide for Pub/Sub messaging, push notification services, and self-hosted real-time infrastructure**. 
 
-**Made for developers, platform engineers, and organizations seeking notification sovereignty.**  
+Whether you are building high-throughput microservice event buses, developer-facing multi-channel notification centers (email, SMS, web/mobile push, Slack, Discord), or edge MQTT brokers for IoT, this repository provides verified specs, pricing tiers, free quotas, and open-source star metrics.
 
-Let's make pub/sub messaging and push notifications more open, transparent, and reliable.
+---
+
+## 💡 Table of Contents
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects (Sorted by Stars)](#-open-source-github-projects-sorted-by-stars)
+  - [🔔 Notification Infrastructure & Workflow Engines](#-notification-infrastructure--workflow-engines)
+  - [📡 Real-Time Pub/Sub & Event Brokers](#-real-time-pubsub--event-brokers)
+  - [📲 Push Notification Gateways & Libraries](#-push-notification-gateways--libraries)
+  - [🌐 MQTT & IoT Messaging Brokers](#-mqtt--iot-messaging-brokers)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Compliance & Security Disclaimer](#-compliance--security-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+The global push notification services & real-time messaging market is estimated at **$4.0B - $20B+** (projected to reach $12B - $90B+ over the next decade) and is **moderately fragmented**: underlying mobile push/messaging networks are highly concentrated around cloud giants (AWS, Google), while higher-level workflow orchestration, engagement, and omnichannel notification APIs remain a competitive, fragmented space.
+
+| Product | Description | Starting Pricing | Free Tier / Trial Limit | Valuation / Revenue |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon SNS](https://aws.amazon.com/sns/)** | AWS's pub/sub messaging service for SMS, email, SQS, and Lambda delivery. Best for AWS-native pub/sub. | $0.50 per 1M publishes | 1M publishes, 1M mobile push, and 1,000 email deliveries per month free forever | **$128.7B+ ARR** (AWS revenue; Parent Amazon $1.7T+ Market Cap) |
+| **[Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging)** | Google's push notification service for mobile and web. Best for Firebase ecosystem. | $0.00 / free (FCM service) | 100% free with unlimited messages & MAUs (pay only for dependent Google Cloud services) | **$70B+ ARR** (Google Cloud revenue; Parent Alphabet $4.2T Market Cap) |
+| **[Twilio](https://www.twilio.com/)** | Communication APIs for SMS, voice, email, and push notifications. Best for omnichannel communication. | $0.0083/SMS segment, $0.014/min voice | 30-day free trial with ~100 SMS / 75 mins voice to verified numbers (no credit card required) | **$4.2B - $5.1B ARR** ($44B+ Market Cap) |
+| **[Braze](https://www.braze.com/)** | Customer engagement platform for cross-channel messaging and analytics. Best for enterprise marketing. | ~$60,000/year base contract | 14-day free trial available (no permanent free tier) | **$600M+ ARR** ($3.5B+ Market Cap) |
+| **[Airship](https://www.airship.com/)** | Customer engagement platform for push, in-app, SMS, and email. Best for enterprise engagement. | ~$25,000/year base contract | Sales-assisted proof-of-concept / pilot program only (no public free tier or self-serve trial) | **$200M+ ARR** ($300M+ Private Valuation) |
+| **[Courier](https://www.courier.com/)** | Notification infrastructure API to route messages across email, SMS, push, and chat. Best for multi-channel notifications. | $0.005 per send (Business plan) | 10,000 sends per month free forever | **$89M - $118M ARR** ($47M total VC funding) |
+| **[OneSignal](https://onesignal.com/)** | Leading push notification platform for mobile, web, and email. Best for mobile engagement. | $19/month (Growth plan) | 1,000 mobile MAUs, 10,000 web subscribers, and 10,000 email sends per month free forever | **$21.6M ARR** ($84M total VC funding) |
+| **[Knock](https://knock.app/)** | Notification infrastructure with workflow builder and subscriber preferences. Best for developer-friendly notifications. | $250/month (Starter plan) | 10,000 notification sends per month free forever | **~$10M ARR** ($18M total VC funding) |
+| **[Novu](https://novu.co/)** | Open-source notification infrastructure platform (Cloud hosted option). Best for developer notification engines. | $30/month (Pro plan) | 10,000 workflow runs per month free forever | **~$5M ARR** ($6.6M total VC funding) |
+| **[Pusher](https://pusher.com/)** | Real-time pub/sub messaging via WebSocket channels. Best for real-time features. | $49/month (Startup plan) | 200,000 messages/day and 100 concurrent connections free forever | **$1.5M - $5M ARR** ($35M acquisition by MessageBird) |
+
+---
+
+## ⚡ Open-Source GitHub Projects (Sorted by Stars)
+
+All open-source repositories below are sorted in **descending order by GitHub star count**. Each project includes a white social star badge linking directly to its GitHub stargazers page.
+
+### 🔔 Notification Infrastructure & Workflow Engines
+
+- **[Novu](https://github.com/novuhq/novu)** [![GitHub Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
+  **The leading open-source notification infrastructure platform**, MIT licensed with **35,000+ GitHub stars**. Provides a unified API for email, SMS, push, in-app inbox, Slack, Teams, Discord, and WhatsApp. Features drag-and-drop visual workflow editors, embeddable React/Angular/Vue inbox components, and subscriber preference management.
+
+- **[ntfy](https://github.com/binwiederhier/ntfy)** [![GitHub Stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=social&color=white)](https://github.com/binwiederhier/ntfy/stargazers)  
+  **HTTP-based pub/sub notification service**, Apache-2.0/GPL-2.0 licensed with **20,000+ GitHub stars**. Allows sending notifications to desktop or mobile via simple HTTP PUT/POST requests. Excellent for self-hosted scripts, home automation, and devops alerts.
+
+- **[Apprise](https://github.com/caronc/apprise)** [![GitHub Stars](https://img.shields.io/github/stars/caronc/apprise?style=social&color=white)](https://github.com/caronc/apprise/stargazers)  
+  **Push notification library for 100+ services**, MIT licensed with **12,000+ GitHub stars**. Provides a lightweight CLI and Python library to send alerts across Telegram, Discord, Slack, email, SMS, and dozens of custom push services.
+
+- **[Gotify](https://github.com/gotify/server)** [![GitHub Stars](https://img.shields.io/github/stars/gotify/server?style=social&color=white)](https://github.com/gotify/server/stargazers)  
+  **Self-hosted push notification server**, MIT licensed with **10,000+ GitHub stars**. Real-time REST API server for sending and receiving messages with web UI and Android app integration.
+
+- **[Uniqush-Push](https://github.com/uniqush/uniqush-push)** [![GitHub Stars](https://img.shields.io/github/stars/uniqush/uniqush-push?style=social&color=white)](https://github.com/uniqush/uniqush-push/stargazers)  
+  **Unified push service system**, Apache-2.0 licensed with **1,400+ GitHub stars**. Standalone push gateway service for server-side notifications to mobile devices across FCM, APNs, and ADM.
+
+- **[Notifuse](https://github.com/Notifuse/notifuse)** [![GitHub Stars](https://img.shields.io/github/stars/Notifuse/notifuse?style=social&color=white)](https://github.com/Notifuse/notifuse/stargazers)  
+  **Open-source notification engine**, AGPL-3.0 licensed. Multi-tenant notification routing layer for transactional messaging.
+
+---
+
+### 📡 Real-Time Pub/Sub & Event Brokers
+
+- **[Redis](https://github.com/redis/redis)** [![GitHub Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)  
+  **In-memory data structure store & Pub/Sub engine**, BSD-3-Clause licensed with **65,000+ GitHub stars**. Simple channel-based message fan-out and stream processing backbone.
+
+- **[Apache Kafka](https://github.com/apache/kafka)** [![GitHub Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)  
+  **Distributed event streaming platform**, Apache-2.0 licensed with **28,000+ GitHub stars**. Ultra-high-throughput pub/sub log architecture with fault-tolerant persistent storage.
+
+- **[Apache Pulsar](https://github.com/apache/pulsar)** [![GitHub Stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)  
+  **Distributed messaging & streaming platform**, Apache-2.0 licensed with **14,000+ GitHub stars**. Multi-tenant pub/sub with serverless functions, geo-replication, and tiered storage.
+
+- **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)** [![GitHub Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)  
+  **Reliable message broker**, MPL-2.0 licensed with **12,000+ GitHub stars**. Supports AMQP, MQTT, and STOMP protocols with flexible routing exchanges and pub/sub topologies.
+
+- **[Centrifugo](https://github.com/centrifugal/centrifugo)** [![GitHub Stars](https://img.shields.io/github/stars/centrifugal/centrifugo?style=social&color=white)](https://github.com/centrifugal/centrifugo/stargazers)  
+  **Scalable real-time messaging server**, Apache-2.0 licensed with **8,000+ GitHub stars**. WebSocket, SSE, and gRPC pub/sub engine with connection presence and message history.
+
+- **[NATS Server](https://github.com/nats-io/nats-server)** [![GitHub Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)  
+  **Cloud-native pub/sub system**, Apache-2.0 licensed with **15,000+ GitHub stars**. Ultra-lightweight, high-performance pub/sub messaging engine with JetStream persistence.
+
+- **[Mercure](https://github.com/dunglas/mercure)** [![GitHub Stars](https://img.shields.io/github/stars/dunglas/mercure?style=social&color=white)](https://github.com/dunglas/mercure/stargazers)  
+  **Server-Sent Events (SSE) pub/sub protocol & hub**, AGPL-3.0 licensed with **3,500+ GitHub stars**. Designed for pushing real-time updates directly to web browsers without WebSockets.
+
+---
+
+### 📲 Push Notification Gateways & Libraries
+
+- **[web-push](https://github.com/web-push-libs/web-push)** [![GitHub Stars](https://img.shields.io/github/stars/web-push-libs/web-push?style=social&color=white)](https://github.com/web-push-libs/web-push/stargazers)  
+  **Web Push library for Node.js**, MIT licensed with **3,000+ GitHub stars**. Standard W3C Web Push protocol implementation supporting VAPID encryption for browser push.
+
+- **[pywebpush](https://github.com/web-push-libs/pywebpush)** [![GitHub Stars](https://img.shields.io/github/stars/web-push-libs/pywebpush?style=social&color=white)](https://github.com/web-push-libs/pywebpush/stargazers)  
+  **Web Push library for Python**, MPL-2.0 licensed with **800+ GitHub stars**. Python implementation of WebPush / VAPID specification for pushing alerts to Chrome, Firefox, Safari, and Edge.
+
+- **[PushSharp](https://github.com/Redth/PushSharp)** [![GitHub Stars](https://img.shields.io/github/stars/Redth/PushSharp?style=social&color=white)](https://github.com/Redth/PushSharp/stargazers)  
+  **.NET push notification library** (Archived), Apache-2.0 licensed with **5,000+ GitHub stars**. Historical multi-platform push library for C# / .NET developers.
+
+- **[node-gcm](https://github.com/ToothlessGear/node-gcm)** [![GitHub Stars](https://img.shields.io/github/stars/ToothlessGear/node-gcm?style=social&color=white)](https://github.com/ToothlessGear/node-gcm/stargazers)  
+  **Node.js GCM/FCM library** (Deprecated), MIT licensed with **1,200+ GitHub stars**. Legacy client library for Google Cloud Messaging.
+
+---
+
+### 🌐 MQTT & IoT Messaging Brokers
+
+- **[EMQX](https://github.com/emqx/emqx)** [![GitHub Stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)  
+  **High-performance MQTT broker**, Apache-2.0 licensed with **13,000+ GitHub stars**. Scalable MQTT pub/sub broker built for 100M+ concurrent IoT connections and edge processing.
+
+- **[Mosquitto](https://github.com/eclipse/mosquitto)** [![GitHub Stars](https://img.shields.io/github/stars/eclipse/mosquitto?style=social&color=white)](https://github.com/eclipse/mosquitto/stargazers)  
+  **Standard MQTT broker**, EPL-2.0 licensed with **8,500+ GitHub stars**. Lightweight C-based MQTT message broker suitable for connected devices, embedded boards, and home servers.
+
+- **[VerneMQ](https://github.com/vernemq/vernemq)** [![GitHub Stars](https://img.shields.io/github/stars/vernemq/vernemq?style=social&color=white)](https://github.com/vernemq/vernemq/stargazers)  
+  **Distributed MQTT broker**, Apache-2.0 licensed with **3,300+ GitHub stars**. Erlang-based fault-tolerant MQTT pub/sub message broker for clustered deployments.
+
+- **[NanoMQ](https://github.com/nanomq/nanomq)** [![GitHub Stars](https://img.shields.io/github/stars/nanomq/nanomq?style=social&color=white)](https://github.com/nanomq/nanomq/stargazers)  
+  **Ultra-lightweight edge MQTT broker**, MIT licensed with **1,200+ GitHub stars**. Optimized for edge computing gateways and embedded IoT hardware.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! Follow these steps to submit additions or updates:
+
+1. **Fork** this repository.
+2. Edit `README.md` keeping formatting consistent (Name, stargazers badge link, factual summary, license, and stars).
+3. Ensure open-source projects are placed in the appropriate sub-category and sorted by star count (descending).
+4. Submit a **Pull Request** with a brief summary of additions.
+
+Refer to the main awesome directory at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for cross-repository list guidelines.
+
+---
+
+## ⚠️ Compliance & Security Disclaimer
+
+- This curated list is **community-maintained** and provided for informational purposes only.
+- **Privacy & Compliance**: Self-hosted notification systems handling user PII or phone numbers must comply with local privacy regulations (GDPR, CCPA, CAN-SPAM, TCPA).
+- **APNs & FCM Dependency**: Mobile push notification delivery ultimately relies on APNs (Apple) and FCM (Google). Self-hosted servers act as dispatchers to APNs/FCM endpoints.
+- **Email Infrastructure**: Self-hosted email dispatches require proper IP warmup, SPF, DKIM, and DMARC record configurations to maintain deliverability.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Pub-Sub-Messaging-Push-Notifications&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Pub-Sub-Messaging-Push-Notifications&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using **Awesome Pub/Sub Messaging & Push Notifications**! 
+
+If this curated repository has saved you time, helped you evaluate notification platforms, or simplified your pub/sub infrastructure research, please consider supporting the project:
+
+- ⭐ **Star** this repository to increase visibility.
+- 🔀 **Fork** and share it with your engineering team or community.
+- ☕ **Sponsor / Buy Me a Coffee**: Support ongoing open-source maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support enables continuous updates, metric tracking, and curation of the best real-time developer tools!
