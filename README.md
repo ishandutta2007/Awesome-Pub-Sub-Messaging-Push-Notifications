@@ -59,7 +59,7 @@ The global push notification services & real-time messaging market is estimated 
 
 ## ⚡ Open-Source GitHub Projects (Sorted by Stars)
 
-All open-source repositories below are sorted in **descending order by GitHub Stars_Count**. Each project includes a white social Stars_Badge linking directly to its GitHub stargazers page.
+All open-source repositories below are sorted in **descending order by GitHub_Stars_Count**. Each project includes a white social Stars_Badge linking directly to its GitHub stargazers page.
 
 ### 🔔 Notification Infrastructure & Workflow Engines
 
